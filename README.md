@@ -58,6 +58,8 @@ Run the `estimatePrice.py` file to get the price estimated by the model for a ce
 python estimatePrice.py
 ```
 
+Note: this will open a prompt for you to ender the mileage of the car you want to estimate.
+
 ### Output Files
 
 1. **`graphs/error_plot.png`**: Visualizes the reduction in error during training.
