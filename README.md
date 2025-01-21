@@ -42,22 +42,21 @@ Run the `trainModel.py` file to train the model and save the results:
 python trainModel.py
 ```
 
-- **Arguments**:
-  - `data_file` (str): Path to the dataset CSV file.
-  - `learning_rate` (float): Step size for gradient descent.
-  - `iterations` (int): Number of iterations for training.
-
 ### Evaluating the Model
 
-Use the `evaluatePrecision.py` file to calculate the model's precision on test data:
+Run the `evaluatePrecision.py` file to calculate the model's precision on the data set:
 
 ```python
 python evaluatePrecision.py
 ```
 
-- **Arguments**:
-  - `test_data_file` (str): Path to the test dataset CSV file.
-  - `theta_file` (str): Path to the file containing trained model parameters.
+### Testing the Model
+
+Run the `estimatePrice.py` file to get the price estimated by the model for a certain mileage:
+
+```python
+python estimatePrice.py
+```
 
 ### Output Files
 
@@ -65,14 +64,14 @@ python evaluatePrecision.py
 2. **`graphs/regression_plot.png`**: Shows the regression line against the dataset.
 3. **`theta.csv`**: Contains the final model parameters in the format `theta0,theta1`.
 
-## Example Directory Structure
+## Project Directory Structure
 
 ```
 project/
 ├── trainModel.py
 ├── estimatePrice.py
+├── evaluatePrecision.py
 ├── data.csv
-├── test_data.csv
 ├── theta.csv
 ├── graphs/
 │   ├── error_plot.png
