@@ -1,5 +1,3 @@
-# ft_linear_regression
-
 # Linear Regression Model with Graphs
 
 ## Overview
@@ -38,10 +36,10 @@ pip install matplotlib
 
 ### Training the Model
 
-Run the `trainModel` function to train the model and save the results:
+Run the `trainModel.py` file to train the model and save the results:
 
 ```python
-trainModel("data.csv", 0.1, 100)
+python trainModel.py
 ```
 
 - **Arguments**:
@@ -51,10 +49,10 @@ trainModel("data.csv", 0.1, 100)
 
 ### Evaluating the Model
 
-Use the `evaluateModelBasic` function to calculate the model's precision on test data:
+Use the `evaluatePrecision.py` file to calculate the model's precision on test data:
 
 ```python
-evaluateModelBasic("test_data.csv", "theta.csv")
+python evaluatePrecision.py
 ```
 
 - **Arguments**:
