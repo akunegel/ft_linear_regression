@@ -79,3 +79,9 @@ project/
 │   ├── error_plot.png
 │   └── regression_plot.png
 ```
+
+## Notes
+
+1. Dataset could be improved for better results.
+2. Model has a 90.53 precision on the data set used to train it.
+3. By default, theta0 and theta1 are worth 0.0 and the trainModel function must be called before trying to estimate a price for a given mileage (else will be 0.0 till model was trained).
